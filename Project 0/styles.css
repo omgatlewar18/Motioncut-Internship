@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+@media (max-width: 600px) {
+  header h1 {
+      font-size: 1.8rem;
+  }
+  .bucket-list li {
+      padding: 0.8rem;
+      font-size: 1rem;
+  }
+}
+
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Section */
+  header {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 2 1;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5;
+  }
+  .thought{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-size: medium;
+      font-family: "Playwrite VN", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .bucket-list h2 {
+    text-align: center;
+    color: #2575fc;
+    margin-bottom: 1rem;
+  }
+  
+  .bucket-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bucket-list li {
+    background: #ffffff;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .bucket-list li span {
+    margin-right: 1%;
+    font-size:medium;
+  }
+
+  .bucket-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+  
+  .bucket-list li:hover {
+    transform: scale(1.02);
+    background-color: #6eb0eb;
+  }
+  
+  .bucket-list li.completed {
+    background-color: #d4edda;
+    border-color: #c8e4cf;
+    text-decoration: line-through;
+    color: #1a692d;
+  }
+  
+  /* Footer Section */
+  footer {
+    text-align: center;
+    padding: 3%;
+    background-color: #333;
+    color: white;
+    margin-top: 2%;
+  }
+  
